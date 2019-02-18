@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+}
+#navbar {
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    top: 0px;
+    background-color: black;
+}
+#navbar a{
+    font-family: 'Poppins', sans-serif;
+    float: right;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 50px;
+    padding-top: 10px;
+    margin-right: 50px;
+    color: white;
+
+}
+#welcome-section {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    background: url(https://www.youtube.com/embed/iGpuQ0ioPrM);
+    background-size: 100%;
+    font-size: 40px;
+    width: 100%;
+    height: 500px;
+    color: white;
+    border-bottom: 1px solid white;
+}
+#page_name {
+    margin: auto;
+}
+.project-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+.project-tile img{
+    width: 400px;
+    height: 300px;
+    opacity: 0.5;
+}
+.project-tile img:hover{
+    width: 400px;
+    height: 300px;
+    opacity: 1;
+}
+#projects{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: white;
+}
+.project-tile {
+    margin: 50px;
+}
+.wanna_see_more {
+    text-align: center;
+}
+.wanna_see_more a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: white;
+}
+.contact-title p{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+#contact-section {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+
+}
+.circle {
+    display: block;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 50px;
+    opacity: 0.5;
+}
+.circle:hover {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    margin: 50px;
+    opacity: 1;
+}
+#contact-section p{
+    text-align: center;
+    padding-top: 40%;
+}
+#contact-section a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: white;
+}
+footer p{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding-top: 45px;
+}
+
+@media and screen (max-width: 800px){
+    #projects{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        color: white;
+    }
+}
+
+
+.video-background {
+    position: absolute;
+    top: 20px;
+    left: 25%;
+    z-index: -1;
+}
+
